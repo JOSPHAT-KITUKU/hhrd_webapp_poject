@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "hhrdcakes",
+    "slug": "hhrdcakes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/login_image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.hhrdcakes"
+    },
+    "web": {
+      "favicon": "./assets/app_icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9df9802b-7cbb-4bd1-bffe-fa138231f616"
+      }
+    },
+    "owner": "josekituku"
+  }
+}
